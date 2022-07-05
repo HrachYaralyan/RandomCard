@@ -1,0 +1,12 @@
+.delCard{
+    width: 30px;
+    height: 30px;
+    color: white;
+    background: blue;
+    transition: .5s;
+    cursor: pointer;
+    &:hover{
+        color: rgb(255, 255, 255);
+        background: rgb(255, 0, 0);
+    }
+}
